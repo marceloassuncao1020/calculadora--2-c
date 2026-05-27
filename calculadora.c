@@ -42,7 +42,7 @@ if(input == 2){
         printf("\nDigite o segundo numero: ");
         scanf("%d", &numero2);
 
-        printf("Resultado � :%d", divisao(numero1, numero2));
+        printf("Resultado � :%d", dividir(numero1, numero2));
     }
     if(input == 4){
         printf("\nDigite o priemiro numero: ");
