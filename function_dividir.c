@@ -13,7 +13,5 @@ int dividir(int numero1, int numero2) {
         quociente = quociente + 1;
         resto = resto - divisor;
     }
-
-    printf("Quociente: %d\n", quociente);
-    printf("Resto: %d\n", resto);
+    return quociente;
 }
